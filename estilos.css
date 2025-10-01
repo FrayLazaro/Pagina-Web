@@ -1,0 +1,40 @@
+
+@media (max-width: 1000px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 19.2px;
+    margin-bottom: 8px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.contacto{
+	max-width: 10px;
+	height: auto;
+}
+
+  
+}
